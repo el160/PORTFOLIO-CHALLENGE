@@ -1,0 +1,118 @@
+
+.contact-form {
+    display: none; /* Initially hidden */
+    padding: 20px;
+    background-color: blueviolet;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(41, 174, 11, 0.1);}
+.contact-form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;}
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px 
+        
+    }
+    .contact-form button {
+        background-color: #480fb2;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .contact-form button:hover {
+        background-color: goldenrod;
+    }
+    .toggle-button {
+        display: block;
+        margin: 20px 0%;
+        width: max-content;
+        padding: 10px;
+        background-color: grey;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .toggle-button:hover {
+        background-color: blue;
+        font-style: italic;
+    }
+    body{
+        background-color: aqua;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 20px;
+        padding: 20px 0%;
+        display: inline-block;
+        text-overflow: ellipsis;
+    }
+        
+    
+    a:hover{
+        color: blanchedalmond;
+        background-color: black;
+        font-style: italic;
+    
+    }
+    section{
+        opacity: 0.9 ;
+        position: relative;
+
+    }
+section:hover{
+    background-color: bisque;
+}
+
+header{
+    text-align: justify;
+}
+header:hover{ /* what happens when the cursor is moved over the header section*/
+    background-color: rgb(12, 123, 174);
+}
+
+footer:hover{
+    background-color: aquamarine;
+}
+
+nav{
+    display: flex;
+}
+/* styling with block*/
+.main-content{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-overflow: ellipsis;
+    
+
+}
+
+/* larger screens>768px*/   /* styling with responsive design*/
+@media (min-width:768px) {
+    .box{
+        flex: 1 1 30%;
+    }
+
+}
+
+/*small screens<768px*/
+@media (max-width : 768px) {
+    .box{
+        flex: 1 1 45%;
+    }
+    
+}
+
+/* small screens <480px*/
+@media(max-widht:480px){
+    .box{
+        flex: 1 1 100%;
+    }
+}
