@@ -96,23 +96,52 @@ nav{
 
 /* larger screens>768px*/   /* styling with responsive design*/
 @media (min-width:768px) {
-    .box{
+    .main-content{
         flex: 1 1 30%;
     }
 
 }
+@media (min-width:768px) {
+    .contact-form{
+        flex: 1 1 30%;
+    }
+    @media (min-width:768px) {
+    .body{
+        flex: 1 1 30%;
+    }
 
 /*small screens<768px*/
 @media (max-width : 768px) {
-    .box{
+    .main-content{
         flex: 1 1 45%;
     }
     
 }
+@media (max-width : 768px) {
+    .contact-form{
+        flex: 1 1 45%;
+    }
+}
+    @media (max-width : 768px) {
+    .body{
+        flex: 1 1 45%;
+    }
+}
 
 /* small screens <480px*/
 @media(max-widht:480px){
-    .box{
+    .main-content{
         flex: 1 1 100%;
     }
 }
+    @media(max-widht:480px){
+    .contact-form{
+        flex: 1 1 100%;
+    }
+}
+    @media(max-widht:480px){
+    .body{
+        flex: 1 1 100%;
+    }
+}
+
